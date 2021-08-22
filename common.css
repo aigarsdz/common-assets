@@ -1,0 +1,191 @@
+/*
+----------------------------------------------------------------------------------------------------
+
+Global styles
+
+----------------------------------------------------------------------------------------------------
+*/
+
+body {
+  text-rendering: optimizeLegibility;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.box {
+  box-sizing: border-box;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.scrollable {
+  overflow: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+/*
+----------------------------------------------------------------------------------------------------
+
+Layout styles
+
+----------------------------------------------------------------------------------------------------
+*/
+
+.row {
+  display: flex;
+}
+
+.padded-row {
+  padding: 0 1rem;
+}
+
+.row-with-centered-content {
+  justify-content: center;
+}
+
+.row-with-spaced-content {
+  justify-content: space-between;
+}
+
+.row-with-middle-aligned-content {
+  align-items: center;
+}
+
+.row-with-bottom-aligned-content {
+  align-items: flex-end;
+}
+
+.row-item-span-1 {
+  width: 8.33333333%;
+}
+
+.row-item-span-2 {
+  width: 16.66666667%;
+}
+
+.row-item-span-3 {
+  width: 25%;
+}
+
+.row-item-span-4 {
+  width: 33.33333333%;
+}
+
+.row-item-span-5 {
+  width: 41.66666667%;
+}
+
+.row-item-span-6 {
+  width: 50%;
+}
+
+.row-item-span-7 {
+  width: 58.33333333%;
+}
+
+.row-item-span-8 {
+  width: 66.66666667%;
+}
+
+.row-item-span-9 {
+  width: 75%;
+}
+
+.row-item-span-10 {
+  width: 83.33333333%;
+}
+
+.row-item-span-11 {
+  width: 91.66666667%;
+}
+
+.row-item-span-12 {
+  width: 100%;
+}
+
+.wrapping-row {
+  flex-wrap: wrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.expanding {
+  flex-grow: 1;
+}
+
+.not-expanding {
+  flex-grow: 0;
+}
+
+.shrinking {
+  flex-shrink: 1;
+}
+
+.not-shrinking {
+  flex-shrink: 0;
+}
+
+.grid {
+  display: grid;
+}
+
+/*
+----------------------------------------------------------------------------------------------------
+
+UI effects
+
+----------------------------------------------------------------------------------------------------
+*/
+
+.outlined:focus {
+  outline: max(1px, 0.1em) solid currentColor;
+}
+
+.outlined:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.outlined:focus-visible {
+  outline: max(1px, 0.1em) solid currentColor;
+}
+
+/*
+----------------------------------------------------------------------------------------------------
+
+Components
+
+----------------------------------------------------------------------------------------------------
+*/
+
+.link-button {
+  border: none;
+  background-color: transparent;
+  color: inherit;
+  cursor: pointer;
+}
