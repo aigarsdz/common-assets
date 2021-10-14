@@ -38,6 +38,10 @@ body {
   text-align: center;
 }
 
+.right-aligned-text {
+  text-align: right;
+}
+
 .scrollable {
   overflow: auto;
 }
