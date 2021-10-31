@@ -22,6 +22,10 @@ body {
   box-sizing: border-box;
 }
 
+.block {
+  display: block;
+}
+
 .circle {
   border-radius: 50%;
 }
@@ -157,6 +161,10 @@ Layout styles
 
 .grid {
   display: grid;
+}
+
+.centered-block {
+  margin: auto;
 }
 
 /*
